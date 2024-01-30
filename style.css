@@ -45,3 +45,12 @@ label {
 input[type="checkbox"] {
   margin-right: 8px;
 }
+
+a {
+  color: #146c96;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
