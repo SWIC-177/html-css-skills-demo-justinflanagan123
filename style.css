@@ -10,11 +10,15 @@ body {
 }
 
 header {
-  border-bottom: #fff;
+  border-bottom: #fff 1px solid;
 }
 
 h1,
 h2 {
   font-weight: bold;
   margin: 20px;
+}
+
+li {
+  margin-bottom: 20px;
 }
