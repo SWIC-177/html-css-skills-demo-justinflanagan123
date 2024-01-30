@@ -9,6 +9,10 @@ body {
   margin: 20px;
 }
 
+header {
+  border-bottom: #fff;
+}
+
 h1,
 h2 {
   font-weight: bold;
