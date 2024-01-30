@@ -33,7 +33,7 @@ li {
   margin-bottom: 20px;
 }
 
-form {
+.checkbox {
   display: flex;
   flex-wrap: wrap;
 }
