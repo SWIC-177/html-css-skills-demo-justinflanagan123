@@ -33,11 +33,6 @@ li {
   margin-bottom: 20px;
 }
 
-form {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 label {
   margin-right: 4px;
 }
@@ -53,4 +48,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
