@@ -6,8 +6,10 @@ body {
   line-height: 1.6;
   color: #fff;
   background-color: #333;
+  margin: 20px;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: bold;
 }
