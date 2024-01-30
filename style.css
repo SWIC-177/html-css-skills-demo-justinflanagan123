@@ -68,3 +68,9 @@ footer {
   text-align: center;
   grid-row: 3;
 }
+
+@media screen and (width >= 1080px) {
+  form.flex-col {
+    max-width: 800;
+  }
+}
