@@ -22,3 +22,16 @@ h2 {
 li {
   margin-bottom: 20px;
 }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  margin-right: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
