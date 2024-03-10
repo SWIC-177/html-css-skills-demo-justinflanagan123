@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Justin Flanagan</title>
   </head>
-  <body class="font-sans">
-    <header class="bg-gray-800 p-4 text-center text-white">
+  <body class="bg-blue-500 font-sans">
+    <header class="bg-gray-800 py-4 text-center text-3xl font-bold text-white">
       <h1>Justin Flanagan</h1>
       <p class="mt-2">
         Hello, my name is Justin, and this is my personal bio page! I will be
@@ -22,15 +22,16 @@
         Hey all, I am a student at
         <a href="https://www.swic.edu/" class="text-blue-500">SWIC</a> and I'm
         trying to get my Associate in Applied Science Graphic Communications.
-        Coding is something I fell in love with turing my high school year at
-        <a href="https://sites.google.com/columbia4.org/chseagles/home"
+        Coding is something I fell in love with during my high school year at
+        <a
+          href="https://sites.google.com/columbia4.org/chseagles/home"
+          class="text-blue-500"
           >Columbia</a
-        >. After a few coding coding classes i realized that this was something
-        I want to pursue as a career. For now I work as a MSA at the Monroe
-        County YMCA, which is just a front desk person. I like my job, the
-        people are very kind to me and a huge plus is that I get a free
-        membership. I hope in the future I can achieve my goal of being a web
-        developer.
+        >. After a few coding classes, I realized that this was something I want
+        to pursue as a career. For now, I work as a MSA at the Monroe County
+        YMCA, which is just a front desk person. I like my job, the people are
+        very kind to me and a huge plus is that I get a free membership. I hope
+        in the future I can achieve my goal of being a web developer.
       </p>
 
       <h2 class="mt-4 text-2xl font-bold">Interests</h2>
@@ -63,49 +64,77 @@
         <li>
           <strong>What do you play games on:</strong>
 
-          <form>
-            <label for="pc">PC</label>
-            <input type="checkbox" id="pc" name="console" value="PC" />
+          <form class="mt-2 flex items-center gap-4">
+            <label for="pc">
+              <input
+                type="checkbox"
+                id="pc"
+                name="console"
+                value="PC"
+                class="mr-2"
+              />
+              PC
+            </label>
 
-            <label for="xbox">Xbox</label>
-            <input type="checkbox" id="xbox" name="console" value="Xbox" />
+            <label for="xbox">
+              <input
+                type="checkbox"
+                id="xbox"
+                name="console"
+                value="Xbox"
+                class="mr-2"
+              />
+              Xbox
+            </label>
 
-            <label for="playstation">PlayStation</label>
-            <input
-              type="checkbox"
-              id="playstation"
-              name="console"
-              value="PlayStation"
-            />
+            <label for="playstation">
+              <input
+                type="checkbox"
+                id="playstation"
+                name="console"
+                value="PlayStation"
+                class="mr-2"
+              />
+              PlayStation
+            </label>
 
-            <label for="nintendo">Nintendo</label>
-            <input
-              type="checkbox"
-              id="nintendo"
-              name="console"
-              value="Nintendo"
-            />
+            <label for="nintendo">
+              <input
+                type="checkbox"
+                id="nintendo"
+                name="console"
+                value="Nintendo"
+                class="mr-2"
+              />
+              Nintendo
+            </label>
           </form>
         </li>
       </ul>
 
-      <form class="flex-col">
+      <form class="mt-4 flex-col">
         <label for="name">Name</label>
-        <input type="text" id="name" />
+        <input type="text" id="name" class="mb-2 border p-2" />
 
         <label for="email">Email</label>
-        <input type="email" id="email" />
+        <input type="email" id="email" class="mb-2 border p-2" />
 
         <label for="phone">Phone</label>
-        <input type="tel" id="phone" />
+        <input type="tel" id="phone" class="mb-2 border p-2" />
 
         <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+        <textarea
+          id="message"
+          name="message"
+          class="mb-2 border p-2"
+        ></textarea>
       </form>
     </main>
 
-    <footer>
-      <a href="https://github.com/justinflanagan123">GitHub</a>
+    <footer class="mt-4 bg-gray-800 text-center">
+      <a href="https://github.com/justinflanagan123" class="text-blue-500"
+        >GitHub</a
+      >
     </footer>
   </body>
 </html>
